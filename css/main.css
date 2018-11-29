@@ -1,15 +1,45 @@
 html {
   box-sizing: border-box;
-  font-family: "Georgia", sans-serif;
+  font-family: "Georgia", serif;
   background-color: #f0eee8;
+  color: #512200;
+  line-height: 1.5;
+  text-decoration: none;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-
-
 h2 {
   font-family: "Dosis", sans-serif;
-  border-box: ##9a816d;x
+}
+
+.link-card {
+    display: block;
+  background-color: #dcd4cd;
+  color: #512200;
+  text-decoration: none;
+  border: 3px solid #9a816e;
+  border-radius: 8px;
+
+}
+
+dd, dt {
+  display: inline-block;
+ width: 45%;
+ margin: 0%;
+}
+
+.div {
+  text-align: center;
+}
+
+.btn {
+  background-color: #785439;
+}
+
+dl {
+  border-top: 3px solid #;
+  border-bottom: 3px solid #;
+}
