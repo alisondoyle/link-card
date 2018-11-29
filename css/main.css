@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "Georgia", serif;
+  font-family: Georgia, serif;
   background-color: #f0eee8;
   color: #512200;
   line-height: 1.5;
@@ -12,23 +12,23 @@ html {
 }
 
 h2 {
-  font-family: "Dosis", sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
 .link-card {
-    display: block;
+  display: block;
   background-color: #dcd4cd;
   color: #512200;
   text-decoration: none;
   border: 3px solid #9a816e;
   border-radius: 8px;
-
+    padding: .4em .75em .5em;
 }
 
 dd, dt {
   display: inline-block;
- width: 45%;
- margin: 0%;
+  width: 45%;
+  margin: 0%;
 }
 
 .div {
@@ -42,4 +42,5 @@ dd, dt {
 dl {
   border-top: 2px solid #9a816e;
   border-bottom: 2px solid #9a816e;
+  font-size: .875rem;
 }
