@@ -1,7 +1,14 @@
 html {
   box-sizing: border-box;
+  font-family: "Georgia", sans-serif;
+  background-color: #f0eee8;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+
+
+h2 {
+  font-family: "Dosis", sans-serif;
