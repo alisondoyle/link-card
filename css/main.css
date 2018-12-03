@@ -13,6 +13,8 @@ html {
 
 h2 {
   font-family: Dosis, sans-serif;
+  margin-top: 0;
+  padding-top: .3em;
 }
 
 .link-card {
@@ -31,16 +33,32 @@ dd, dt {
   margin: 0%;
 }
 
-.div {
+dl {
+  border-top: 2px solid #9a816e;
+  border-bottom: 2px solid #9a816e;
+  font-size: .875rem;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+}
+
+
+div {
   text-align: center;
 }
 
 .btn {
   background-color: #785439;
+  border-radius: 3px;
+  color: #fff;
+  font-family: Dosis, sans-serif bold;
+  font-size: 1.125rem;
+  display: inline-block;
 }
 
-dl {
-  border-top: 2px solid #9a816e;
-  border-bottom: 2px solid #9a816e;
-  font-size: .875rem;
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+h2 {
+  font-weight: bold;
 }
