@@ -24,7 +24,7 @@ h2 {
   text-decoration: none;
   border: 3px solid #9a816e;
   border-radius: 8px;
-    padding: .4em .75em .5em;
+  padding: .4em .75em .5em;
 }
 
 dd, dt {
@@ -34,13 +34,12 @@ dd, dt {
 }
 
 dl {
-  border-top: 2px solid #9a816e;
-  border-bottom: 2px solid #9a816e;
+  border-top: 2px solid #9a816d;
+  border-bottom: 2px solid #9a816d;
   font-size: .875rem;
   padding-top: 1em;
   padding-bottom: 1.5em;
 }
-
 
 div {
   text-align: center;
@@ -59,6 +58,6 @@ div {
   background-color: #cabdb2;
 }
 
-h2 {
+.link-card h2 {
   font-weight: bold;
 }
